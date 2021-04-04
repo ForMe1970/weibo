@@ -1,0 +1,40 @@
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+body {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.weibo-nav {
+    background-color: #343a40 !important;
+    margin-bottom: 200px;
+}
+
+.navbar-logo {
+    color: white;
+}
+
+.navbar-menu {
+    display: block;
+    li {
+        display: inline-block;
+    }
+
+    li > a {
+        display: block;
+        color: #9d9d9d;
+        width: 100%;
+        height: 100%;
+        padding: 5px 10px;
+    }
+
+    li > a:hover {
+        color: white;
+        text-decoration: none;
+    }
+}
+
+.jumbotron {
+    background-color: #e9ecef;
+}
