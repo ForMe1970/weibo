@@ -6,8 +6,9 @@ body {
     font-weight: normal;
 }
 
+$navbar-color:  #343a40;
 .weibo-nav {
-    background-color: #343a40 !important;
+    background-color: $navbar-color !important;
     margin-bottom: 200px;
 }
 
