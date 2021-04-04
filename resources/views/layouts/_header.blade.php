@@ -1,9 +1,9 @@
 <nav class="navbar weibo-nav">
 	<div class="container">
-		<a href="#" class="navbar-brand navbar-logo">Weibo App</a>
+		<a href="{{ route('home') }}" class="navbar-brand navbar-logo">Weibo App</a>
 		<ul class="nav navbar-nav navbar-menu">
 			<li>
-				<a href="#" class="navbar-link">帮助</a>
+				<a href="{{ route('help') }}" class="navbar-link">帮助</a>
 			</li>
 			<li>
 				<a href="#" class="navbar-link">登录</a>
