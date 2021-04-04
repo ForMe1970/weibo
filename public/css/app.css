@@ -10036,3 +10036,12 @@ body {
 .jumbotron {
   background-color: #e9ecef;
 }
+
+.footer {
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+}
+.footer a {
+  color: #555;
+  font-weight: bold;
+}
