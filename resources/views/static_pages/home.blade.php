@@ -10,7 +10,6 @@
 		<p>一切，从这里开始。</p>
 		<p><a class="btn btn-primary btn-lg" href="{{ route('singup') }}" role="button">现在注册</a></p>
 	</div>
-
     @include('layouts._footer')
 </div>
 @stop
