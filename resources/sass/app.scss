@@ -43,6 +43,7 @@ $navbar-color:  #343a40;
 .footer {
     $font-color: #555;
     border-top: 1px solid #ccc;
+    margin-top: 45px;
     padding-top: 10px;
     a {
         color: $font-color;
@@ -54,7 +55,7 @@ $navbar-color:  #343a40;
 /* User gravatar */
 
 section.user_info {
-    padding-bottom: 80px;
+    padding-bottom: 10px;
     margin-top: 20px;
     text-align: center;
     .gravatar {

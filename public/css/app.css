@@ -10039,6 +10039,7 @@ body {
 
 .footer {
   border-top: 1px solid #ccc;
+  margin-top: 45px;
   padding-top: 10px;
 }
 .footer a {
@@ -10048,7 +10049,7 @@ body {
 
 /* User gravatar */
 section.user_info {
-  padding-bottom: 80px;
+  padding-bottom: 10px;
   margin-top: 20px;
   text-align: center;
 }
