@@ -1,4 +1,5 @@
 @extends('layouts.default')
+@section('title', '个人信息')
 
 @section('content')
 <div class="row">
