@@ -6,7 +6,7 @@
 				<a href="{{ route('help') }}" class="navbar-link">帮助</a>
 			</li>
 			<li>
-				<a href="#" class="navbar-link">登录</a>
+				<a href="{{ route('login') }}" class="navbar-link">登录</a>
 			</li>
 		</ul>
 	</div>
