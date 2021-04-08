@@ -72,7 +72,12 @@ class User extends Authenticatable
 
     public function feed()
     {
-        return $this->statuses()->orderBy('created_at', 'desc');
+        $userIds = $this->followings->pluck('id')->toArray();
+        array_push($userIds, $this->id);
+
+        return Status::whereIn('user_id', $userIds)
+                        ->with('user')
+                        ->orderBy('created_at', 'desc');
     }
 
     public function follow($user_ids)
