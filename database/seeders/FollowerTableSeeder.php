@@ -27,7 +27,7 @@ class FollowerTableSeeder extends Seeder
 
         //除了1号用户外，所有用户都来关注1号用户
         foreach ($followers as $follower) {
-            $follower->follower($userId);
+            $follower->follow($userId);
         }
     }
 }

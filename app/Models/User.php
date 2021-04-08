@@ -75,7 +75,7 @@ class User extends Authenticatable
         return $this->statuses()->orderBy('created_at', 'desc');
     }
 
-    public function follower($user_ids)
+    public function follow($user_ids)
     {
         if ( ! is_array($user_ids)) {
             $user_ids = compact('user_ids');
@@ -84,7 +84,7 @@ class User extends Authenticatable
     }
 
 
-    public function unfollower($user_ids)
+    public function unfollow($user_ids)
     {
         if ( ! is_array($user_ids)) {
             $user_ids = compact('user_ids');
