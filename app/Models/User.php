@@ -59,4 +59,9 @@ class User extends Authenticatable
     {
         return '/img/1.jpg';
     }
+
+    public function feed()
+    {
+        return $this->statuses()->orderBy('created_at', 'desc');
+    }
 }
